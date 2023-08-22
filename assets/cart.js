@@ -306,7 +306,7 @@ async function updateCartItemQuantity(variantId, quantity) {
   }
 }
 
-// Example usage
+// Test
 const variantIdToUpdate = 45557285880110
 const newQuantity = 1
 
@@ -343,7 +343,7 @@ async function addItemToCart(variantId, quantity, properties = {}) {
   }
 }
 
-// Example usage
+// Test
 const variantIdToAdd = 45557062041902;
 const quantityToAdd = 1;
 

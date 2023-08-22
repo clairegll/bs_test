@@ -70,11 +70,21 @@
       "settings": {
         "cards": "title\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum."
       }
+    },
+    "97f31e8b-b3d5-4aa1-afdf-844f16a43f2c": {
+      "type": "bs_facile_js",
+      "settings": {
+        "heading": "<p>Exercice JS<\/p>",
+        "subtitle": "<p>Regardez dans la console :)<\/p>",
+        "button_url": "#",
+        "button_label": "Click me"
+      }
     }
   },
   "order": [
     "9b648ffb-65bb-4f70-a663-594ef962f502",
     "be5206ba-f274-4126-adee-eead3ceab4f4",
-    "481ffae8-94ee-45a2-b50a-91235f12f758"
+    "481ffae8-94ee-45a2-b50a-91235f12f758",
+    "97f31e8b-b3d5-4aa1-afdf-844f16a43f2c"
   ]
 }
