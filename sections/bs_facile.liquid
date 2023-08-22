@@ -1,0 +1,33 @@
+<div class="bs_container">
+  {% if section.settings.heading %}
+    <div class="font-bold text-3xl uppercase mb-2">{{ section.settings.heading }}</div>
+  {% endif %}
+  {% if section.settings.subtitle %}
+    <div class="text-xl">{{ section.settings.subtitle }}</div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "BlackSwan - Facile",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "default": "<p>Mon super gros titre</p>",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "default": "<p>Mon sous titre</p>",
+      "label": "Subtitle"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BlackSwan - Facile"
+    }
+  ]
+}
+{% endschema %}

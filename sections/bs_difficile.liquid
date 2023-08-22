@@ -1,0 +1,31 @@
+<div class="grid grid-cols-1">
+  {% assign card_lines = section.settings.cards | newline_to_br | split: '<br />' %}
+  {% for card_line in card_lines %}
+    {% assign card_content = card_line | split: '///' %}
+    {% if card_content.size == 2 %}
+      <div class="p-5">
+        <p class="font-bold text-3xl uppercase mb-5">{{ card_content[0] }}</p>
+        <p class="text-xl">{{ card_content[1] }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "BlackSwan - Difficile",
+  "settings": [
+    {
+      "type": "textarea",
+      "label": "Cards (format: title///description)",
+      "id": "cards",
+      "default": "title///description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BlackSwan - Difficile"
+    }
+  ]
+}
+{% endschema %}

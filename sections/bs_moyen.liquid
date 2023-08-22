@@ -1,0 +1,74 @@
+<div class="bs_container">
+  <div class="grid grid-cols">
+    {% for block in section.blocks %}
+      <div>
+        {% if block.settings.image %}
+          <img
+            src="{{ block.settings.image | image_url: width: 2000 }}"
+            alt="{{ block.settings.image.alt | escape }}"
+            width="auto"
+            height="{{ section.settings.image_ratio }}"
+            loading="lazy"
+            class="rounded-2xl mb-2 object-cover"
+          >
+        {% endif %}
+        {% if block.settings.caption %}
+          <div class="text-sm">{{ block.settings.caption }}</div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "BlackSwan - Moyen",
+  "settings": [
+    {
+      "type": "range",
+      "id": "image_ratio",
+      "min": 150,
+      "max": 300,
+      "step": 2,
+      "unit": "px",
+      "label": "Image size",
+      "default": 176
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "default": "Card name",
+          "label": "Caption"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BlackSwan - Moyen",
+      "blocks": [
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

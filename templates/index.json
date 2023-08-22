@@ -1,0 +1,80 @@
+{
+  "sections": {
+    "9b648ffb-65bb-4f70-a663-594ef962f502": {
+      "type": "bs_facile",
+      "settings": {
+        "heading": "<p>Mon super gros titre<\/p>",
+        "subtitle": "<p>Mon sous titre<\/p>"
+      }
+    },
+    "be5206ba-f274-4126-adee-eead3ceab4f4": {
+      "type": "bs_moyen",
+      "blocks": {
+        "template--20677565579566__be5206ba-f274-4126-adee-eead3ceab4f4-card-1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-dk-photography-NUoPWImmjCU-unsplash_1.png",
+            "caption": "Card name"
+          }
+        },
+        "cefbe708-a3ed-4e9a-8c26-28387933605b": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-dk-photography-NUoPWImmjCU-unsplash_1.png",
+            "caption": "Card name"
+          }
+        },
+        "a3f29a96-714e-4bab-b61c-5e9982ef5b7f": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-dk-photography-NUoPWImmjCU-unsplash_1.png",
+            "caption": "Card name"
+          }
+        },
+        "e79665eb-432a-4f0b-b153-b734b56ad269": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-dk-photography-NUoPWImmjCU-unsplash_1.png",
+            "caption": "Card name"
+          }
+        },
+        "3a33a1e3-3a51-45e7-bbd8-f6a2a9398413": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-dk-photography-NUoPWImmjCU-unsplash_1.png",
+            "caption": "Card name"
+          }
+        },
+        "c4c61d12-c6d0-4b64-9c5b-aa51bb34e015": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-dk-photography-NUoPWImmjCU-unsplash_1.png",
+            "caption": "Card name"
+          }
+        }
+      },
+      "block_order": [
+        "template--20677565579566__be5206ba-f274-4126-adee-eead3ceab4f4-card-1",
+        "cefbe708-a3ed-4e9a-8c26-28387933605b",
+        "a3f29a96-714e-4bab-b61c-5e9982ef5b7f",
+        "e79665eb-432a-4f0b-b153-b734b56ad269",
+        "3a33a1e3-3a51-45e7-bbd8-f6a2a9398413",
+        "c4c61d12-c6d0-4b64-9c5b-aa51bb34e015"
+      ],
+      "settings": {
+        "image_ratio": 162
+      }
+    },
+    "481ffae8-94ee-45a2-b50a-91235f12f758": {
+      "type": "bs_difficile",
+      "settings": {
+        "cards": "title\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum.\ntitle\/\/\/Iure corporis deleniti dignissimos praesentium fuga. Nam cupiditate facilis ex aut officia harum."
+      }
+    }
+  },
+  "order": [
+    "9b648ffb-65bb-4f70-a663-594ef962f502",
+    "be5206ba-f274-4126-adee-eead3ceab4f4",
+    "481ffae8-94ee-45a2-b50a-91235f12f758"
+  ]
+}

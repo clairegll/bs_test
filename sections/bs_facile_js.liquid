@@ -1,0 +1,72 @@
+<div class="bs_container">
+  {% if section.settings.heading %}
+    <div class="font-bold text-3xl uppercase mb-2">{{ section.settings.heading }}</div>
+  {% endif %}
+  {% if section.settings.subtitle %}
+    <div class="text-xl">{{ section.settings.subtitle }}</div>
+  {% endif %}
+  {% if section.settings.button_label %}
+    <a
+      href="{{ section.settings.button_url }}"
+      class="button mon-element"
+    >
+      {{ section.settings.button_label }}
+    </a>
+  {% endif %}
+</div>
+
+{% comment %}
+  {% javascript %}
+    // Excercice JS Facile
+    function addVisibilityEvent(selector) {
+      const elements = document.querySelectorAll(selector);
+
+      function handleVisibility() {
+        elements.forEach((element) => {
+          console.log(element, 'hello');
+        });
+      }
+
+      window.addEventListener('DOMContentLoaded', handleVisibility);
+      window.addEventListener('scroll', handleVisibility);
+    }
+
+    addVisibilityEvent('.mon-element');
+  {% endjavascript %}
+{% endcomment %}
+
+{% schema %}
+{
+  "name": "BlackSwan - JS Facile",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "default": "<p>Mon super gros titre</p>",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "default": "<p>Mon sous titre</p>",
+      "label": "Subtitle"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Click me"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BlackSwan - JS Facile"
+    }
+  ]
+}
+{% endschema %}

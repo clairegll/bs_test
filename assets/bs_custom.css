@@ -1,0 +1,199 @@
+/* General Reset */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol, li,
+figure, figcaption,
+blockquote,
+dl, dd, dt,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+}
+
+/* Basic Styles */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Links Reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Lists Reset */
+ul, ol {
+  list-style: none;
+}
+
+/* Forms Reset */
+input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Buttons Reset */
+button {
+  cursor: pointer;
+}
+
+/* Override button pseudo-element shadow */
+.button:before,
+.shopify-challenge__button:before,
+.customer button:before,
+.shopify-payment-button__button--unbranded:before,
+.shopify-payment-button [role='button']:before,
+.cart__dynamic-checkout-buttons [role='button']:before {
+  content: none; /* Remove the pseudo-element content */
+  box-shadow: none; /* Remove the box shadow */
+}
+
+.button:after,
+.shopify-challenge__button:after,
+.customer button:after,
+.shopify-payment-button__button--unbranded:after {
+  content: none; /* Remove the pseudo-element content */
+  box-shadow: none; /* Remove the box shadow */
+  transition: none; /* Remove the transition effect */
+}
+
+/* Headings Reset */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Global Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content-for-layout{
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .content-for-layout{
+        padding: 50px 63px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content-for-layout{
+        padding: 100px 166px;
+    }
+}
+
+.bs_container{
+    padding-bottom :50px;
+}
+
+/* CSS Facile */
+
+.font-bold{
+    font-weight: 800;
+}
+
+.text-3xl{
+    font-size: 32px;
+    letter-spacing: 1.6px;
+    line-height: normal;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.mb-2{
+    margin-bottom: 10px;
+}
+
+.text-xl{
+    line-height: 120%;
+    font-size: 24px;
+    font-weight: 400;
+}
+/* CSS Moyen */
+
+.grid {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-cols {
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+@media (min-width: 768px) {
+    .grid-cols {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid-cols {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.rounded-2xl{
+    border-radius:20px;
+}
+
+.object-cover{
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-sm{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* CSS Difficile */
+
+.mb-5{
+    margin-bottom: 20px;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 1200px) {
+    .grid-cols-1 {
+        grid-template-columns: repeat(3, 1fr);
+    } 
+}
+
+.p-5{
+    padding:20px;
+}
+
+/* JS Facile */
+
+.button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
